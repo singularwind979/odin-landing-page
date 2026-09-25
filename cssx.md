@@ -218,5 +218,6 @@ g(-x/y)-1…6                     gap / column-gap / row-gap
 
 main-start/end/center/spaced    justify-content
 cross-start/end/center/spaced   align-items (spaced = align-content)
+self-start/end/center/stretch   align-self (per-item override of cross-*)
 ```
 *(grid alignment — planned)*

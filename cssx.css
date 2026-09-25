@@ -544,4 +544,10 @@ button {
 .cross-center { align-items: center; }
 .cross-spaced { align-content: space-between; }
 
+/* alignment — flex item (self = align-self, per-item override of cross-*) */
+.self-start { align-self: flex-start; }
+.self-end { align-self: flex-end; }
+.self-center { align-self: center; }
+.self-stretch { align-self: stretch; }
+
 /* alignment — grid — planned */
