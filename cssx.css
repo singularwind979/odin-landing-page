@@ -376,38 +376,38 @@ button {
 .size-y-9 { height: var(--size-9); }
 .size-y-10 { height: var(--size-10); }
 
-.fix-size-1 { min-width: var(--size-1); max-width: var(--size-1); min-height: var(--size-1); max-height: var(--size-1); }
-.fix-size-2 { min-width: var(--size-2); max-width: var(--size-2); min-height: var(--size-2); max-height: var(--size-2); }
-.fix-size-3 { min-width: var(--size-3); max-width: var(--size-3); min-height: var(--size-3); max-height: var(--size-3); }
-.fix-size-4 { min-width: var(--size-4); max-width: var(--size-4); min-height: var(--size-4); max-height: var(--size-4); }
-.fix-size-5 { min-width: var(--size-5); max-width: var(--size-5); min-height: var(--size-5); max-height: var(--size-5); }
-.fix-size-6 { min-width: var(--size-6); max-width: var(--size-6); min-height: var(--size-6); max-height: var(--size-6); }
-.fix-size-7 { min-width: var(--size-7); max-width: var(--size-7); min-height: var(--size-7); max-height: var(--size-7); }
-.fix-size-8 { min-width: var(--size-8); max-width: var(--size-8); min-height: var(--size-8); max-height: var(--size-8); }
-.fix-size-9 { min-width: var(--size-9); max-width: var(--size-9); min-height: var(--size-9); max-height: var(--size-9); }
-.fix-size-10 { min-width: var(--size-10); max-width: var(--size-10); min-height: var(--size-10); max-height: var(--size-10); }
+.fixed-size-1 { min-width: var(--size-1); max-width: var(--size-1); min-height: var(--size-1); max-height: var(--size-1); }
+.fixed-size-2 { min-width: var(--size-2); max-width: var(--size-2); min-height: var(--size-2); max-height: var(--size-2); }
+.fixed-size-3 { min-width: var(--size-3); max-width: var(--size-3); min-height: var(--size-3); max-height: var(--size-3); }
+.fixed-size-4 { min-width: var(--size-4); max-width: var(--size-4); min-height: var(--size-4); max-height: var(--size-4); }
+.fixed-size-5 { min-width: var(--size-5); max-width: var(--size-5); min-height: var(--size-5); max-height: var(--size-5); }
+.fixed-size-6 { min-width: var(--size-6); max-width: var(--size-6); min-height: var(--size-6); max-height: var(--size-6); }
+.fixed-size-7 { min-width: var(--size-7); max-width: var(--size-7); min-height: var(--size-7); max-height: var(--size-7); }
+.fixed-size-8 { min-width: var(--size-8); max-width: var(--size-8); min-height: var(--size-8); max-height: var(--size-8); }
+.fixed-size-9 { min-width: var(--size-9); max-width: var(--size-9); min-height: var(--size-9); max-height: var(--size-9); }
+.fixed-size-10 { min-width: var(--size-10); max-width: var(--size-10); min-height: var(--size-10); max-height: var(--size-10); }
 
-.fix-size-x-1 { min-width: var(--size-1); max-width: var(--size-1); }
-.fix-size-x-2 { min-width: var(--size-2); max-width: var(--size-2); }
-.fix-size-x-3 { min-width: var(--size-3); max-width: var(--size-3); }
-.fix-size-x-4 { min-width: var(--size-4); max-width: var(--size-4); }
-.fix-size-x-5 { min-width: var(--size-5); max-width: var(--size-5); }
-.fix-size-x-6 { min-width: var(--size-6); max-width: var(--size-6); }
-.fix-size-x-7 { min-width: var(--size-7); max-width: var(--size-7); }
-.fix-size-x-8 { min-width: var(--size-8); max-width: var(--size-8); }
-.fix-size-x-9 { min-width: var(--size-9); max-width: var(--size-9); }
-.fix-size-x-10 { min-width: var(--size-10); max-width: var(--size-10); }
+.fixed-size-x-1 { min-width: var(--size-1); max-width: var(--size-1); }
+.fixed-size-x-2 { min-width: var(--size-2); max-width: var(--size-2); }
+.fixed-size-x-3 { min-width: var(--size-3); max-width: var(--size-3); }
+.fixed-size-x-4 { min-width: var(--size-4); max-width: var(--size-4); }
+.fixed-size-x-5 { min-width: var(--size-5); max-width: var(--size-5); }
+.fixed-size-x-6 { min-width: var(--size-6); max-width: var(--size-6); }
+.fixed-size-x-7 { min-width: var(--size-7); max-width: var(--size-7); }
+.fixed-size-x-8 { min-width: var(--size-8); max-width: var(--size-8); }
+.fixed-size-x-9 { min-width: var(--size-9); max-width: var(--size-9); }
+.fixed-size-x-10 { min-width: var(--size-10); max-width: var(--size-10); }
 
-.fix-size-y-1 { min-height: var(--size-1); max-height: var(--size-1); }
-.fix-size-y-2 { min-height: var(--size-2); max-height: var(--size-2); }
-.fix-size-y-3 { min-height: var(--size-3); max-height: var(--size-3); }
-.fix-size-y-4 { min-height: var(--size-4); max-height: var(--size-4); }
-.fix-size-y-5 { min-height: var(--size-5); max-height: var(--size-5); }
-.fix-size-y-6 { min-height: var(--size-6); max-height: var(--size-6); }
-.fix-size-y-7 { min-height: var(--size-7); max-height: var(--size-7); }
-.fix-size-y-8 { min-height: var(--size-8); max-height: var(--size-8); }
-.fix-size-y-9 { min-height: var(--size-9); max-height: var(--size-9); }
-.fix-size-y-10 { min-height: var(--size-10); max-height: var(--size-10); }
+.fixed-size-y-1 { min-height: var(--size-1); max-height: var(--size-1); }
+.fixed-size-y-2 { min-height: var(--size-2); max-height: var(--size-2); }
+.fixed-size-y-3 { min-height: var(--size-3); max-height: var(--size-3); }
+.fixed-size-y-4 { min-height: var(--size-4); max-height: var(--size-4); }
+.fixed-size-y-5 { min-height: var(--size-5); max-height: var(--size-5); }
+.fixed-size-y-6 { min-height: var(--size-6); max-height: var(--size-6); }
+.fixed-size-y-7 { min-height: var(--size-7); max-height: var(--size-7); }
+.fixed-size-y-8 { min-height: var(--size-8); max-height: var(--size-8); }
+.fixed-size-y-9 { min-height: var(--size-9); max-height: var(--size-9); }
+.fixed-size-y-10 { min-height: var(--size-10); max-height: var(--size-10); }
 
 /* spacing */
 .m-1 { margin: var(--space-1); }

@@ -103,11 +103,11 @@ text-start / text-end / text-center   (text-align)
 ## box
 
 ### size
-`size` and `fix-size`, each with all-axis and `-x` / `-y` variants, read the **scale** spine at `scale-5…14`:
+`size` and `fixed-size`, each with all-axis and `-x` / `-y` variants, read the **scale** spine at `scale-5…14`:
 
 ```
 size(-x/y)-1…10      width/height
-fix-size(-x/y)-1…10  min = max (locked size)
+fixed-size(-x/y)-1…10  min = max (locked size)
 ```
 
 **scale spine** (rem) — 14 steps, interleaving two doubling sequences (6-based odd / 8-based even):
