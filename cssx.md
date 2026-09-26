@@ -39,22 +39,19 @@ button { cursor: pointer; }
 ### shades
 | family | shades |
 |---|---|
-| stone / slate / zinc | 50 · 100 · 200 · 800 · 900 · 950 |
-| the other six | 100 · 200 · 800 · 900 |
+| stone / slate / zinc | 50 · 100 · 200 · 800 · 950 |
+| the other six | 100 · 200 · 800 |
 
 `50` = white, `950` = black (only the three temperature anchors carry them).
 
 ### roles
 Three roles, one per surface. Each maps a family to a shade:
 
-| role | light (default) | dark (`.dark`) |
-|---|---|---|
-| `bg` — background | `-100` | `-900` |
-| `b` — border | `-200` | `-800` |
-| `font` — text | `-800` | `-200` |
-
-- **light** = the `:root` default (no class — it's the absence of `.dark`)
-- **dark** = the `.dark` class
+| role | shade |
+|---|---|
+| `bg` — background | `-100` |
+| `b` — border | `-200` |
+| `font` — text | `-800` |
 
 Utilities: `.bg-*` `.b-*` `.font-*`
 

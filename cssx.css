@@ -33,54 +33,45 @@ button {
   --color-stone-100: #f5f5f4;
   --color-stone-200: #e7e5e4;
   --color-stone-800: #292524;
-  --color-stone-900: #1c1917;
   --color-stone-950: #0c0a09;
 
   --color-rose-100: #ffe4e6;
   --color-rose-200: #fecdd3;
   --color-rose-800: #9f1239;
-  --color-rose-900: #881337;
 
   --color-amber-100: #fef3c7;
   --color-amber-200: #fde68a;
   --color-amber-800: #92400e;
-  --color-amber-900: #78350f;
 
   /* Theme color tokens — cold: slate, emerald, sky */
   --color-slate-50: #f8fafc;
   --color-slate-100: #f1f5f9;
   --color-slate-200: #e2e8f0;
   --color-slate-800: #1e293b;
-  --color-slate-900: #0f172a;
   --color-slate-950: #020617;
 
   --color-emerald-100: #d1fae5;
   --color-emerald-200: #a7f3d0;
   --color-emerald-800: #065f46;
-  --color-emerald-900: #064e3b;
 
   --color-sky-100: #e0f2fe;
   --color-sky-200: #bae6fd;
   --color-sky-800: #075985;
-  --color-sky-900: #0c4a6e;
 
   /* Theme color tokens — cool: zinc, violet, fuchsia */
   --color-zinc-50: #fafafa;
   --color-zinc-100: #f4f4f5;
   --color-zinc-200: #e4e4e7;
   --color-zinc-800: #27272a;
-  --color-zinc-900: #18181b;
   --color-zinc-950: #09090b;
 
   --color-violet-100: #ede9fe;
   --color-violet-200: #ddd6fe;
   --color-violet-800: #5b21b6;
-  --color-violet-900: #4c1d95;
 
   --color-fuchsia-100: #fae8ff;
   --color-fuchsia-200: #f5d0fe;
   --color-fuchsia-800: #86198f;
-  --color-fuchsia-900: #701a75;
 
   /* Semantic color tokens — bg→-100, b→-200, font→-800 */
   --bg-stone: var(--color-stone-100);
@@ -227,45 +218,6 @@ button {
   --font-light: 300;
   --font-bold: 700;
   --font-italic: italic;
-}
-
-/* Dark mode — .dark re-maps semantic tokens to their dark shade (light + dark = 1000) */
-.dark {
-  --bg-stone: var(--color-stone-900);
-  --b-stone: var(--color-stone-800);
-  --font-stone: var(--color-stone-200);
-
-  --bg-rose: var(--color-rose-900);
-  --b-rose: var(--color-rose-800);
-  --font-rose: var(--color-rose-200);
-
-  --bg-amber: var(--color-amber-900);
-  --b-amber: var(--color-amber-800);
-  --font-amber: var(--color-amber-200);
-
-  --bg-slate: var(--color-slate-900);
-  --b-slate: var(--color-slate-800);
-  --font-slate: var(--color-slate-200);
-
-  --bg-emerald: var(--color-emerald-900);
-  --b-emerald: var(--color-emerald-800);
-  --font-emerald: var(--color-emerald-200);
-
-  --bg-sky: var(--color-sky-900);
-  --b-sky: var(--color-sky-800);
-  --font-sky: var(--color-sky-200);
-
-  --bg-zinc: var(--color-zinc-900);
-  --b-zinc: var(--color-zinc-800);
-  --font-zinc: var(--color-zinc-200);
-
-  --bg-violet: var(--color-violet-900);
-  --b-violet: var(--color-violet-800);
-  --font-violet: var(--color-violet-200);
-
-  --bg-fuchsia: var(--color-fuchsia-900);
-  --b-fuchsia: var(--color-fuchsia-800);
-  --font-fuchsia: var(--color-fuchsia-200);
 }
 
 /* ===== Color ===== */
