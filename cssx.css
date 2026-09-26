@@ -28,13 +28,14 @@ button {
 
 /* Token */
 :root {
-  /* Theme color tokens — warm: stone, rose (+deep), amber (+deep) */
-  --color-stone-50: #fafaf9;
-  --color-stone-100: #f5f5f4;
-  --color-stone-200: #e7e5e4;
-  --color-stone-800: #292524;
-  --color-stone-950: #0c0a09;
+  /* Theme color tokens — neutral: one themeless grey */
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-800: #262626;
+  --color-neutral-950: #0a0a0a;
 
+  /* Theme color tokens — warm: rose (+deep), amber (+deep) */
   --color-rose-100: #ffe4e6;
   --color-rose-200: #fecdd3;
   --color-rose-800: #9f1239;
@@ -49,13 +50,7 @@ button {
   --color-amber-deep-200: #fed7aa;
   --color-amber-deep-800: #9a3412;
 
-  /* Theme color tokens — cold: slate, emerald (+deep), sky (+deep) */
-  --color-slate-50: #f8fafc;
-  --color-slate-100: #f1f5f9;
-  --color-slate-200: #e2e8f0;
-  --color-slate-800: #1e293b;
-  --color-slate-950: #020617;
-
+  /* Theme color tokens — cold: emerald (+deep), sky (+deep) */
   --color-emerald-100: #d1fae5;
   --color-emerald-200: #a7f3d0;
   --color-emerald-800: #065f46;
@@ -70,13 +65,7 @@ button {
   --color-sky-deep-200: #bfdbfe;
   --color-sky-deep-800: #1e40af;
 
-  /* Theme color tokens — cool: zinc, violet (+deep), pink (+deep) */
-  --color-zinc-50: #fafafa;
-  --color-zinc-100: #f4f4f5;
-  --color-zinc-200: #e4e4e7;
-  --color-zinc-800: #27272a;
-  --color-zinc-950: #09090b;
-
+  /* Theme color tokens — cool: violet (+deep), pink (+deep) */
   --color-violet-100: #ede9fe;
   --color-violet-200: #ddd6fe;
   --color-violet-800: #5b21b6;
@@ -93,9 +82,9 @@ button {
   --color-pink-deep-800: #86198f;
 
   /* Semantic color tokens — bg→-100, b→-200, font→-800 */
-  --bg-stone: var(--color-stone-100);
-  --b-stone: var(--color-stone-200);
-  --font-stone: var(--color-stone-800);
+  --bg-neutral: var(--color-neutral-100);
+  --b-neutral: var(--color-neutral-200);
+  --font-neutral: var(--color-neutral-800);
 
   --bg-rose: var(--color-rose-100);
   --b-rose: var(--color-rose-200);
@@ -105,10 +94,6 @@ button {
   --b-amber: var(--color-amber-200);
   --font-amber: var(--color-amber-800);
 
-  --bg-slate: var(--color-slate-100);
-  --b-slate: var(--color-slate-200);
-  --font-slate: var(--color-slate-800);
-
   --bg-emerald: var(--color-emerald-100);
   --b-emerald: var(--color-emerald-200);
   --font-emerald: var(--color-emerald-800);
@@ -116,10 +101,6 @@ button {
   --bg-sky: var(--color-sky-100);
   --b-sky: var(--color-sky-200);
   --font-sky: var(--color-sky-800);
-
-  --bg-zinc: var(--color-zinc-100);
-  --b-zinc: var(--color-zinc-200);
-  --font-zinc: var(--color-zinc-800);
 
   --bg-violet: var(--color-violet-100);
   --b-violet: var(--color-violet-200);
@@ -129,20 +110,12 @@ button {
   --b-pink: var(--color-pink-200);
   --font-pink: var(--color-pink-800);
 
-  /* Semantic black/white — 50→white, 950→black, per temperature (bg + font only) */
-  --bg-warm-white: var(--color-stone-50);
-  --bg-warm-black: var(--color-stone-950);
-  --bg-cold-white: var(--color-slate-50);
-  --bg-cold-black: var(--color-slate-950);
-  --bg-cool-white: var(--color-zinc-50);
-  --bg-cool-black: var(--color-zinc-950);
+  /* Semantic black/white — neutral 50→white, 950→black (bg + font only) */
+  --bg-white: var(--color-neutral-50);
+  --bg-black: var(--color-neutral-950);
 
-  --font-warm-white: var(--color-stone-50);
-  --font-warm-black: var(--color-stone-950);
-  --font-cold-white: var(--color-slate-50);
-  --font-cold-black: var(--color-slate-950);
-  --font-cool-white: var(--color-zinc-50);
-  --font-cool-black: var(--color-zinc-950);
+  --font-white: var(--color-neutral-50);
+  --font-black: var(--color-neutral-950);
 
   /* Grain tokens — px (not rem); odd steps 2-based, even steps 3-based */
   --grain-1: 2px;
@@ -242,47 +215,33 @@ button {
 /* ===== Color ===== */
 
 /* background — .bg-* reads the -100 shade via --bg-* */
-.bg-stone { background-color: var(--bg-stone); }
+.bg-neutral { background-color: var(--bg-neutral); }
 .bg-rose { background-color: var(--bg-rose); }
 .bg-amber { background-color: var(--bg-amber); }
-.bg-slate { background-color: var(--bg-slate); }
 .bg-emerald { background-color: var(--bg-emerald); }
 .bg-sky { background-color: var(--bg-sky); }
-.bg-zinc { background-color: var(--bg-zinc); }
 .bg-violet { background-color: var(--bg-violet); }
 .bg-pink { background-color: var(--bg-pink); }
-.bg-warm-white { background-color: var(--bg-warm-white); }
-.bg-warm-black { background-color: var(--bg-warm-black); }
-.bg-cold-white { background-color: var(--bg-cold-white); }
-.bg-cold-black { background-color: var(--bg-cold-black); }
-.bg-cool-white { background-color: var(--bg-cool-white); }
-.bg-cool-black { background-color: var(--bg-cool-black); }
+.bg-white { background-color: var(--bg-white); }
+.bg-black { background-color: var(--bg-black); }
 
 /* text — .font-* reads the -800 shade via --font-* */
-.font-stone { color: var(--font-stone); }
+.font-neutral { color: var(--font-neutral); }
 .font-rose { color: var(--font-rose); }
 .font-amber { color: var(--font-amber); }
-.font-slate { color: var(--font-slate); }
 .font-emerald { color: var(--font-emerald); }
 .font-sky { color: var(--font-sky); }
-.font-zinc { color: var(--font-zinc); }
 .font-violet { color: var(--font-violet); }
 .font-pink { color: var(--font-pink); }
-.font-warm-white { color: var(--font-warm-white); }
-.font-warm-black { color: var(--font-warm-black); }
-.font-cold-white { color: var(--font-cold-white); }
-.font-cold-black { color: var(--font-cold-black); }
-.font-cool-white { color: var(--font-cool-white); }
-.font-cool-black { color: var(--font-cool-black); }
+.font-white { color: var(--font-white); }
+.font-black { color: var(--font-black); }
 
 /* border — .b-* reads the -200 shade via --b-* */
-.b-stone { border-color: var(--b-stone); }
+.b-neutral { border-color: var(--b-neutral); }
 .b-rose { border-color: var(--b-rose); }
 .b-amber { border-color: var(--b-amber); }
-.b-slate { border-color: var(--b-slate); }
 .b-emerald { border-color: var(--b-emerald); }
 .b-sky { border-color: var(--b-sky); }
-.b-zinc { border-color: var(--b-zinc); }
 .b-violet { border-color: var(--b-violet); }
 .b-pink { border-color: var(--b-pink); }
 

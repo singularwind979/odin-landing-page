@@ -28,23 +28,24 @@ button { cursor: pointer; }
 ## color
 
 ### palette
-9 families × 3 temperatures — each non-anchor family carries a `deep` mode, a
-darker-hue variant listed under its parent (Tailwind red/orange/green/blue/
-purple/fuchsia values):
+One themeless `neutral` grey + 6 hue families × 3 temperatures — each hue family
+carries a `deep` mode, a darker-hue variant listed under its parent (Tailwind
+red/orange/green/blue/purple/fuchsia values):
 
 | temperature | families |
 |---|---|
-| warm | stone · rose · rose-deep · amber · amber-deep |
-| cold | slate · emerald · emerald-deep · sky · sky-deep |
-| cool | zinc · violet · violet-deep · pink · pink-deep |
+| neutral | neutral |
+| warm | rose · rose-deep · amber · amber-deep |
+| cold | emerald · emerald-deep · sky · sky-deep |
+| cool | violet · violet-deep · pink · pink-deep |
 
 ### shades
 | family | shades |
 |---|---|
-| stone / slate / zinc | 50 · 100 · 200 · 800 · 950 |
+| neutral | 50 · 100 · 200 · 800 · 950 |
 | the other twelve (`*-deep` incl.) | 100 · 200 · 800 |
 
-`50` = white, `950` = black (only the three temperature anchors carry them).
+`50` = white, `950` = black (only neutral carries them).
 
 ### roles
 Three roles, one per surface. Each maps a family to a shade:
@@ -58,8 +59,8 @@ Three roles, one per surface. Each maps a family to a shade:
 Utilities: `.bg-*` `.b-*` `.font-*`
 
 ### black / white
-Per temperature, `bg` and `font` only (no `b`):
-`bg-warm-white` (stone-50) … `bg-warm-black` (stone-950), and same for `cold`/`cool`.
+One themeless pair, `bg` and `font` only (no `b`):
+`bg-white` / `font-white` (neutral-50) · `bg-black` / `font-black` (neutral-950).
 
 ---
 
