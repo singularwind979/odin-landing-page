@@ -28,40 +28,36 @@ button { cursor: pointer; }
 ## color
 
 ### palette
-One themeless `neutral` grey + 6 hue families × 3 temperatures — each hue family
-carries a `deep` mode, a darker-hue variant listed under its parent (Tailwind
-red/orange/green/blue/purple/fuchsia values):
+One themeless `neutral` grey + 6 hue families × 3 temperatures:
 
 | temperature | families |
 |---|---|
 | neutral | neutral |
-| warm | rose · rose-deep · amber · amber-deep |
-| cold | emerald · emerald-deep · sky · sky-deep |
-| cool | violet · violet-deep · pink · pink-deep |
+| warm | rose · amber |
+| cold | emerald · sky |
+| cool | violet · pink |
 
 ### shades
-| family | shades |
-|---|---|
-| neutral | 50 · 100 · 200 · 800 · 950 |
-| the other twelve (`*-deep` incl.) | 100 · 200 · 800 |
-
-`50` = white, `950` = black (only neutral carries them).
+Levels `1..9` = Tailwind standard `100..900` — every family carries the full ramp
+as `--color-<family>-<level>`.
 
 ### roles
-Three roles, one per surface. Each family maps to a shade — and a `*-deep` mode is
-a family here too, so it gets the same three roles:
+Three roles, one per surface. `bg-/b-/font-<color>` is shorthand for the family's
+**default level**; `.bg-<color>-<level>` pins a level explicitly. The defaults are
+plain tokens — re-point them to re-default a role:
 
-| role | shade |
+| role | default level |
 |---|---|
-| `bg` — background | `-100` |
-| `b` — border | `-200` |
-| `font` — text | `-800` |
+| `bg` — background | `--bg-<color>` → `-1` |
+| `b` — border | `--b-<color>` → `-2` |
+| `font` — text | `--font-<color>` → `-8` |
 
-Utilities: `.bg-*` `.b-*` `.font-*`, deep included (e.g. `.font-sky-deep` = blue-800)
+Utilities: `.bg-*` `.b-*` `.font-*`, bare or leveled (e.g. `.bg-sky` = default,
+`.bg-sky-5` = `#0ea5e9`)
 
 ### black / white
 One themeless pair, `bg` and `font` only (no `b`):
-`bg-white` / `font-white` (neutral-50) · `bg-black` / `font-black` (neutral-950).
+`--color-white` (= neutral 50) · `--color-black` (= neutral 950).
 
 ---
 
