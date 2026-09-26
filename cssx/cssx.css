@@ -89,26 +89,44 @@ button {
   --bg-rose: var(--color-rose-100);
   --b-rose: var(--color-rose-200);
   --font-rose: var(--color-rose-800);
+  --bg-rose-deep: var(--color-rose-deep-100);
+  --b-rose-deep: var(--color-rose-deep-200);
+  --font-rose-deep: var(--color-rose-deep-800);
 
   --bg-amber: var(--color-amber-100);
   --b-amber: var(--color-amber-200);
   --font-amber: var(--color-amber-800);
+  --bg-amber-deep: var(--color-amber-deep-100);
+  --b-amber-deep: var(--color-amber-deep-200);
+  --font-amber-deep: var(--color-amber-deep-800);
 
   --bg-emerald: var(--color-emerald-100);
   --b-emerald: var(--color-emerald-200);
   --font-emerald: var(--color-emerald-800);
+  --bg-emerald-deep: var(--color-emerald-deep-100);
+  --b-emerald-deep: var(--color-emerald-deep-200);
+  --font-emerald-deep: var(--color-emerald-deep-800);
 
   --bg-sky: var(--color-sky-100);
   --b-sky: var(--color-sky-200);
   --font-sky: var(--color-sky-800);
+  --bg-sky-deep: var(--color-sky-deep-100);
+  --b-sky-deep: var(--color-sky-deep-200);
+  --font-sky-deep: var(--color-sky-deep-800);
 
   --bg-violet: var(--color-violet-100);
   --b-violet: var(--color-violet-200);
   --font-violet: var(--color-violet-800);
+  --bg-violet-deep: var(--color-violet-deep-100);
+  --b-violet-deep: var(--color-violet-deep-200);
+  --font-violet-deep: var(--color-violet-deep-800);
 
   --bg-pink: var(--color-pink-100);
   --b-pink: var(--color-pink-200);
   --font-pink: var(--color-pink-800);
+  --bg-pink-deep: var(--color-pink-deep-100);
+  --b-pink-deep: var(--color-pink-deep-200);
+  --font-pink-deep: var(--color-pink-deep-800);
 
   /* Semantic black/white — neutral 50→white, 950→black (bg + font only) */
   --bg-white: var(--color-neutral-50);
@@ -217,33 +235,51 @@ button {
 /* background — .bg-* reads the -100 shade via --bg-* */
 .bg-neutral { background-color: var(--bg-neutral); }
 .bg-rose { background-color: var(--bg-rose); }
+.bg-rose-deep { background-color: var(--bg-rose-deep); }
 .bg-amber { background-color: var(--bg-amber); }
+.bg-amber-deep { background-color: var(--bg-amber-deep); }
 .bg-emerald { background-color: var(--bg-emerald); }
+.bg-emerald-deep { background-color: var(--bg-emerald-deep); }
 .bg-sky { background-color: var(--bg-sky); }
+.bg-sky-deep { background-color: var(--bg-sky-deep); }
 .bg-violet { background-color: var(--bg-violet); }
+.bg-violet-deep { background-color: var(--bg-violet-deep); }
 .bg-pink { background-color: var(--bg-pink); }
+.bg-pink-deep { background-color: var(--bg-pink-deep); }
 .bg-white { background-color: var(--bg-white); }
 .bg-black { background-color: var(--bg-black); }
 
 /* text — .font-* reads the -800 shade via --font-* */
 .font-neutral { color: var(--font-neutral); }
 .font-rose { color: var(--font-rose); }
+.font-rose-deep { color: var(--font-rose-deep); }
 .font-amber { color: var(--font-amber); }
+.font-amber-deep { color: var(--font-amber-deep); }
 .font-emerald { color: var(--font-emerald); }
+.font-emerald-deep { color: var(--font-emerald-deep); }
 .font-sky { color: var(--font-sky); }
+.font-sky-deep { color: var(--font-sky-deep); }
 .font-violet { color: var(--font-violet); }
+.font-violet-deep { color: var(--font-violet-deep); }
 .font-pink { color: var(--font-pink); }
+.font-pink-deep { color: var(--font-pink-deep); }
 .font-white { color: var(--font-white); }
 .font-black { color: var(--font-black); }
 
 /* border — .b-* reads the -200 shade via --b-* */
 .b-neutral { border-color: var(--b-neutral); }
 .b-rose { border-color: var(--b-rose); }
+.b-rose-deep { border-color: var(--b-rose-deep); }
 .b-amber { border-color: var(--b-amber); }
+.b-amber-deep { border-color: var(--b-amber-deep); }
 .b-emerald { border-color: var(--b-emerald); }
+.b-emerald-deep { border-color: var(--b-emerald-deep); }
 .b-sky { border-color: var(--b-sky); }
+.b-sky-deep { border-color: var(--b-sky-deep); }
 .b-violet { border-color: var(--b-violet); }
+.b-violet-deep { border-color: var(--b-violet-deep); }
 .b-pink { border-color: var(--b-pink); }
+.b-pink-deep { border-color: var(--b-pink-deep); }
 
 /* ===== Typo ===== */
 

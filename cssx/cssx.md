@@ -48,7 +48,8 @@ red/orange/green/blue/purple/fuchsia values):
 `50` = white, `950` = black (only neutral carries them).
 
 ### roles
-Three roles, one per surface. Each maps a family to a shade:
+Three roles, one per surface. Each family maps to a shade — and a `*-deep` mode is
+a family here too, so it gets the same three roles:
 
 | role | shade |
 |---|---|
@@ -56,7 +57,7 @@ Three roles, one per surface. Each maps a family to a shade:
 | `b` — border | `-200` |
 | `font` — text | `-800` |
 
-Utilities: `.bg-*` `.b-*` `.font-*`
+Utilities: `.bg-*` `.b-*` `.font-*`, deep included (e.g. `.font-sky-deep` = blue-800)
 
 ### black / white
 One themeless pair, `bg` and `font` only (no `b`):
