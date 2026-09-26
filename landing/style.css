@@ -1,5 +1,59 @@
 @import url('../cssx/cssx.css');
 
+/* Brand colors */
+:root {
+  --brand-dark: #1f2937;    /* header, hero & footer background; info heading */
+  --brand-light: #f9faf8;   /* logo & hero main text */
+  --brand-muted: #e5e7eb;   /* secondary text & header links; quote background */
+  --brand-action: #3882f6;  /* sign-up buttons & call-to-action background */
+}
+
+/* Brand application */
+header,
+#hero,
+footer { 
+    background-color: var(--brand-dark);
+    color: var(--brand-light); 
+}
+
+header,
+#hero { color: var(--brand-muted); }
+
+#logo,
+#hero h2 { color: var(--brand-light); }
+
+#hero-img {
+  background-color: var(--brand-muted);
+  color: var(--brand-dark);
+}
+
+figure > div {
+    border-color: var(--brand-action);
+}
+
+#info h2 { color: var(--brand-dark); }
+
+#quote {
+  background-color: var(--brand-muted);
+  color: var(--brand-dark);
+}
+
+#cta-panel {
+  background-color: var(--brand-action);
+  color: var(--brand-light);
+}
+
+#hero-btn {
+  background-color: var(--brand-action);
+  color: var(--brand-light);
+}
+
+#cta-btn {
+  background-color: var(--brand-action);
+  border-color: var(--brand-light);
+  color: var(--brand-light);
+}
+
 * {
     outline: 1px solid red !important;
 }
