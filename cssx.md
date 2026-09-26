@@ -28,19 +28,21 @@ button { cursor: pointer; }
 ## color
 
 ### palette
-9 families × 3 temperatures:
+9 families × 3 temperatures — each non-anchor family carries a `deep` mode, a
+darker-hue variant listed under its parent (Tailwind red/orange/green/blue/
+purple/fuchsia values):
 
 | temperature | families |
 |---|---|
-| warm | stone · rose · amber |
-| cold | slate · emerald · sky |
-| cool | zinc · violet · fuchsia |
+| warm | stone · rose · rose-deep · amber · amber-deep |
+| cold | slate · emerald · emerald-deep · sky · sky-deep |
+| cool | zinc · violet · violet-deep · pink · pink-deep |
 
 ### shades
 | family | shades |
 |---|---|
 | stone / slate / zinc | 50 · 100 · 200 · 800 · 950 |
-| the other six | 100 · 200 · 800 |
+| the other twelve (`*-deep` incl.) | 100 · 200 · 800 |
 
 `50` = white, `950` = black (only the three temperature anchors carry them).
 
